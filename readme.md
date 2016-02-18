@@ -1,8 +1,6 @@
 # cows [![Build Status](https://travis-ci.org/sindresorhus/cows.svg?branch=master)](https://travis-ci.org/sindresorhus/cows)
 
-> ASCII cows 🐮
-
-400+ 🐄's!
+> 400+ ASCII 🐮s
 
 The list is just a [text file](cows.txt) and can be used wherever.
 
