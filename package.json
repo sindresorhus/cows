@@ -1,31 +1,31 @@
 {
-  "name": "cows",
-  "version": "1.1.0",
-  "description": "ASCII cows 🐮",
-  "license": "MIT",
-  "repository": "sindresorhus/cows",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js",
-    "cows.txt"
-  ],
-  "keywords": [
-    "cows",
-    "cow",
-    "ascii"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  }
+	"name": "cows",
+	"version": "1.1.0",
+	"description": "ASCII cows 🐮",
+	"license": "MIT",
+	"repository": "sindresorhus/cows",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cows.txt"
+	],
+	"keywords": [
+		"cows",
+		"cow",
+		"ascii"
+	],
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
 }

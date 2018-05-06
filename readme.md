@@ -91,7 +91,7 @@ _______| /\_|  /\_|  /\_|   /\_|  |________
 ## Install
 
 ```
-$ npm install --save cows
+$ npm install cows
 ```
 
 

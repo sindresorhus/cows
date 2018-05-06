@@ -1,8 +1,9 @@
 import test from 'ava';
-import m from './';
+import m from '.';
 
-test(t => {
+test('main', t => {
 	const cows = m();
+	console.log('Cows:', cows.length);
 	t.true(Array.isArray(cows));
 	t.true(cows.length > 0);
 });
