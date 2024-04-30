@@ -1,5 +1,5 @@
 import test from 'ava';
-import cows from '.';
+import cows from './index.js';
 
 test('main', t => {
 	const cowList = cows();

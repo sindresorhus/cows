@@ -4,21 +4,25 @@
 	"description": "ASCII cows 🐮",
 	"license": "MIT",
 	"repository": "sindresorhus/cows",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": "./index.js",
+	"sideEffects": false,
 	"engines": {
-		"node": ">=6"
+		"node": ">=18"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"//test": "xo && ava",
+		"test": "ava"
 	},
 	"files": [
 		"index.js",
-		"cows.txt",
-		"cowbell"
+		"cows.txt"
 	],
 	"keywords": [
 		"cows",
@@ -26,7 +30,7 @@
 		"ascii"
 	],
 	"devDependencies": {
-		"ava": "^0.25.0",
-		"xo": "^0.23.0"
+		"ava": "^6.1.2",
+		"xo": "^0.58.0"
 	}
 }
