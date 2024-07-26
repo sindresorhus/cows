@@ -1,6 +1,6 @@
 {
 	"name": "cows",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "ASCII cows 🐮",
 	"license": "MIT",
 	"repository": "sindresorhus/cows",
