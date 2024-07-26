@@ -14,7 +14,7 @@ The list is just a [text file](cows.txt) and can be used wherever.
   /-------\/
  / |     ||
 +  ||----||
-   ~~    ~~
+   ^^    ^^
      Cow
 
 
